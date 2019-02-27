@@ -1,0 +1,163 @@
+body{
+  background-color:#202021;
+  font-family:Oswald,sans-serif;
+  color: white;
+  font-size: 25px;
+  overflow-x:hidden;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 994px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .nav-item{
+    display: none;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .ft_img{
+    width: 50px;
+    height: 50px;
+  }
+}
+#navbar_mn{
+  height:70px;
+  transition: background-color 0.25s;
+}
+.navbar-brand{
+  margin-right: 1%;
+  color:white;
+}
+.navbar-brand:hover{
+  color:#747477;
+}
+.nav-item{
+  margin-right: 20px;
+}
+.nav-link{
+  color:white;
+  text-shadow: 2px 2px black;
+  transition: color 0.2s;
+}
+
+.nav-link:hover{
+  color:#747477;
+}
+.nav-link:active{
+  color: #747477;
+}
+.thumbnail{
+  width: 100%;
+  text-align: center;
+  transition: width 0.2s,margin 0.2s;
+}
+.thumbnail:hover{
+  width: 105%;
+  margin: -10px;
+}
+.mn_a{
+  color: white;
+  transition: color 0.2s;
+}
+.mn_a:hover{
+  color:#747477;
+  text-decoration: none;
+}
+.main_cnt{
+  text-align: center;
+}
+
+#mn_lin{
+  color:white;
+  font-weight:800;
+  font-size:50px;
+  margin-top: 30px;
+}
+
+#fr_mn{
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-group input{
+  height: 50px;
+  width: 100%;
+  clear: both;
+  font-weight: 700;
+  font-size: 20px;
+  border: solid #2c2c2d 2px;
+}
+
+.form-group textarea{
+  font-weight: 700;
+  font-size: 20px;
+  resize: none;
+  border: solid #2c2c2d 2px;
+}
+
+.form-group label{
+  float: left;
+}
+
+#fr_sb{
+  width: 30%;
+  border-color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: solid #2c2c2d 2px;
+}
+
+
+.mn_cp_top{
+  height: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row{
+  width: 100%;
+}
+
+#id_ig{
+
+}
+
+#id_bg{
+  border: solid #434447 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+#id_bg:hover{
+  background-color: #3e4144;
+}
+#mn_bg{
+  margin-top: 20px;
+}
+
+.col-md-3{
+  margin-bottom: 30px;
+}
+#cp_mn{
+  color:#9fa1a5;
+  transition: color 0.2s;
+}
+#cp_mn:hover{
+  color: white;
+  cursor: pointer;
+}

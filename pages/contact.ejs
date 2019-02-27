@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CIH : Contact us</title>
+    <% include header.ejs %>
+  </head>
+  <body>
+      <% include menu.ejs %>
+    <div class="container center_div" id="fr_mn">
+      <form class="fr_cont" method="POST" action="/success">
+        <h1 style="font-weight:700;">Contact us</h1>
+        <div class="mn_f">
+          <p id="er_mn"></p>
+        </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">username</label>
+    <input type="name" class="form-control bg-dark text-white" id="username" placeholder="name/username...">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control bg-dark text-white" id="email" placeholder="name@example.com" name="email">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control bg-dark text-white" id="message" placeholder="your message..." rows="12" name="subject"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary bg-dark" id="fr_sb">Submit</button>
+</form>
+  </div>
+      <% include footer.ejs %>
+  </body>
+</html>
