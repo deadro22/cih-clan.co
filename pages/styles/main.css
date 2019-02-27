@@ -88,7 +88,7 @@ body{
 
 #fr_mn{
   height: 100%;
-  width: 50%;
+  width: 80%;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -115,7 +115,7 @@ body{
 }
 
 #fr_sb{
-  width: 20vh;
+  width: 30vh;
   border-color: white;
   font-weight: 700;
   font-size: 20px;
