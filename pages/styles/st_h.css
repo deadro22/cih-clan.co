@@ -113,3 +113,7 @@ html{
 #lol_bg{
   margin: 0;
 }
+
+.desc_txt p{
+  margin: 10px;
+}
