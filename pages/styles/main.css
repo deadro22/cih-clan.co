@@ -22,8 +22,7 @@ body{
 @media only screen and (max-width: 994px) {
   [class*="col-"] {
     width: 100%;
-  }
-  .nav-item{
+  }#navbarNav{
     display: none;
   }
 }
@@ -116,7 +115,7 @@ body{
 }
 
 #fr_sb{
-  width: 30%;
+  width: 20vh;
   border-color: white;
   font-weight: 700;
   font-size: 20px;
