@@ -53,23 +53,13 @@ $(function(){
   //fortnite
   generateft("#fr_bg","pc.png","Oussama rifi","Deadro","Fortnite");
   generateft("#fr_bg","pc.png","Adam toumi","Bring","Fortnite");
-  generateft("#fr_bg","pc.png","Youssef rifi","tagernit","Fortnite");
+  generateft("#fr_bg","pc.png","Med salim ben amer","kill4u","Fortnite");
   generateft("#fr_bg","ps4.png","Wissem derouich","wissem494","Fortnite");
-  generateft("#fr_bg","ps4.png","Med salim ben amer","kill4u","Fortnite");
-
   //apex
-
   generateft("#ap_bg","pc.png","Adam toumi","Bring","Apex legends");
-  generateft("#ap_bg","pc.png","Med salim ben amer","kill4u","Apex legends");
-  generateft("#ap_bg","ps4.png","Oussama rifi","Deadro","Apex legends");
-  generateft("#ap_bg","ps4.png","Wissem derouich","wissem494","Apex legends");
-  generateft("#ap_bg","ps4.png","testing","tagernit","Apex legends");
+  generateft("#ap_bg","pc.png","Oussama rifi","Deadro","Apex legends");
   //League
-  generateft("#lol_bg","pc.png","Oussama rifi","Deadro","League of legends");
   generateft("#lol_bg","pc.png","Adam toumi","Bring","League of legends");
-  generateft("#lol_bg","pc.png","Wissem derouich","wissem494","League of legends");
-  generateft("#lol_bg","pc.png","Med salim ben amer","kill4u","League of legends");
-  generateft("#lol_bg","pc.png","Youssef rifi","tagernit","League of legends");
   //
   $(".thumbnail").on("click",function(event){
     $(this).find(".info_mn").toggle(300);
