@@ -14,6 +14,9 @@ app.use(express.static(__dirname + "/javascript"));
 app.get("/home",function(req,res){
   res.render(__dirname +"/pages/index.ejs");
 });
+app.get("/",function(req,res){
+  res.render(__dirname +"/pages/index.ejs");
+});
 app.get("/fortnite",function(req,res){
   res.render(__dirname +"/pages/fortnite.ejs");
 });

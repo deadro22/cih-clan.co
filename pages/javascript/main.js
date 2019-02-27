@@ -52,7 +52,7 @@ $(function(){
 
   //fortnite
   generateft("#fr_bg","pc.PNG","Oussama rifi","Deadro","Fortnite");
-  generateft("#fr_bg","pc.PNG","Adam toumi","Bring","Fortnite");
+  generateft("#fr_bg","iconp.jpg","Adam toumi","Bring","Fortnite");
   generateft("#fr_bg","pc.PNG","Youssef rifi","tagernit","Fortnite");
   generateft("#fr_bg","ps4.PNG","Wissem derouich","wissem494","Fortnite");
   generateft("#fr_bg","ps4.PNG","Med salim ben amer","kill4u","Fortnite");
