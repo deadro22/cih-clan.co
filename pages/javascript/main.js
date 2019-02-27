@@ -9,6 +9,15 @@ $(function(){
     $("#navbar_mn").css("background-color","");
   }
   });
+  //mobile
+  $("body").on("touchmove",function(){
+    var height = $(this).scrollTop()
+    if(height > 50){
+    $("#navbar_mn").css("background-color","#0f0f0f");
+  }else{
+    $("#navbar_mn").css("background-color","");
+  }
+  });
   function ch_req(pass){
     if($("#username").val() == "" || $("#email").val() == "" || $("#message").val() == ""){
       pass.preventDefault();
