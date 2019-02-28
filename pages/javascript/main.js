@@ -45,7 +45,7 @@ $(function(){
   function genGr(gameName,gameImg,href){
     var gr_wid = '<div class="col-md-4">'+
    '<a href="'+href+'" class="mn_a"><div class="thumbnail">'+
-      '<img src="'+gameImg+'" alt="game image" style="width:100%" class="mn_img">'+
+      '<img src="'+gameImg+'" alt="game image" title="creativecommons.org" style="width:100%" class="mn_img">'+
        '<div class="caption">'+
          '<p>'+gameName+'</p>'+
        '</div>'+
