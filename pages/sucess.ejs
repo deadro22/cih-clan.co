@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>CIH : Success</title>
+    <% include header.ejs %>
   </head>
   <body>
       <% include menu.ejs %>
-    <% include footer.ejs %>
+      <div class="er_mn">
+        <h1>cool, we got your message.Thank you for contacting us!</h1>
+        <img src="/images/success.png" alt="sucess" width="150px" height="150px" style="margin-top:10px;">
+        <a href="/home" class="nav-link">Return home</a>
+      </div>
+      <% include footer.ejs %>
   </body>
 </html>

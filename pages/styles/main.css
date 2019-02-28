@@ -22,8 +22,6 @@ body{
 @media only screen and (max-width: 994px) {
   [class*="col-"] {
     width: 100%;
-  }#navbarNav{
-    display: none;
   }
 }
 @media only screen and (max-width: 413px) {
@@ -33,7 +31,6 @@ body{
   }
 }
 #navbar_mn{
-  height:70px;
   transition: background-color 0.25s;
 }
 .navbar-brand{
@@ -47,16 +44,16 @@ body{
   margin-right: 20px;
 }
 .nav-link{
-  color:white;
+  color:white!important;
   text-shadow: 2px 2px black;
   transition: color 0.2s;
 }
 
 .nav-link:hover{
-  color:#747477;
+  color:#747477!important;
 }
 .nav-link:active{
-  color: #747477;
+  color: #747477!important;
 }
 .thumbnail{
   width: 100%;
@@ -83,7 +80,6 @@ body{
   color:white;
   font-weight:800;
   font-size:50px;
-  margin-top: 30px;
 }
 
 #fr_mn{

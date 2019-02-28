@@ -9,19 +9,15 @@ $(function(){
     $("#navbar_mn").css("background-color","");
   }
   });
-  //mobile
-  $("body").on("touchmove",function(){
-    var height = $(this).scrollTop()
-    if(height > 50){
-    $("#navbar_mn").css("background-color","#0f0f0f");
-  }else{
-    $("#navbar_mn").css("background-color","");
-  }
-  });
   function ch_req(pass){
+    var email = $("#email");
     if($("#username").val() == "" || $("#email").val() == "" || $("#message").val() == ""){
-      pass.preventDefault();
-      $("#er_mn").text("all fields are required !").hide().toggle(500);
+      function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+        pass.preventDefault();
+        $("#er_mn").text("all fields are required !").hide().toggle(500);
+      }
     }
   }
   $(".fr_cont").on("submit",ch_req);
