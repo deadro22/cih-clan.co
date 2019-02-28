@@ -65,10 +65,10 @@ $(function(){
   generateft("#fr_bg","pc.png","Med salim ben amer","kill4u","Fortnite");
   generateft("#fr_bg","ps4.png","Wissem derouich","wissem494","Fortnite");
   //apex
-  generateft("#ap_bg","pc.png","Adam toumi","Bring","Apex legends");
-  generateft("#ap_bg","pc.png","Oussama rifi","Deadro","Apex legends");
+
+
   //League
-  generateft("#lol_bg","pc.png","Adam toumi","Bring","League of legends");
+
   //
   $(".thumbnail").on("click",function(event){
     $(this).find(".info_mn").toggle(300);
