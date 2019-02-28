@@ -29,7 +29,7 @@ $(function(){
   function generateft(id,image,name,uname,games){
     var id_wid =  '<div class="col-md-3">'+
        '<div class="thumbnail" id="id_bg">'+
-         '<img src="/images/Skins/'+image+'" alt="creativecommons.org" title="creativecommons.org"  style="width:150px" id="id_ig">'+
+         '<img src="/images/Skins/'+image+'" alt="creativecommons.org" style="width:150px" id="id_ig">'+
           '<div class="caption">'+
             '<p class="id_name">'+name+'</p>'+
             '<div class="info_mn">'+
