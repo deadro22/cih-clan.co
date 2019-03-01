@@ -56,6 +56,7 @@ $(function(){
   generateft("#fr_bg","pc.png","Adam toumi","Bring","Fortnite");
   generateft("#fr_bg","pc.png","Med salim ben amer","kill4u","Fortnite");
   generateft("#fr_bg","ps4.png","Wissem derouich","wissem494","Fortnite");
+  generateft("#fr_bg","ps4.png","Amine ammari","R3kt_By_Am1ne","Fortnite");
   //apex
 
 

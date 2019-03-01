@@ -16,10 +16,17 @@ lol{
 }
 
 ask.accepted{
-  hello we got your message and this is how you can join our clan and be a member:
+  Hello "username"
+
+we got your message and this is how you can join our clan and be a member:
+
 -first join our discord from our website https://cih-clan.herokuapp.com or from here https://discord.gg/yyvucBm.
--then all you have to do is post a message in #need-help and tag the admin and type "i want to join the clan and be a CIH member/Game: your game".
--wait for the test where we will give you the day and the exact hour of the test.
--and btw if you want to know how to test in apex or fortnite or league of legends then all you have to do is reply to this email with the game name and we will send you info of the test process for every game.
+
+-then all you have to do is post a message in our discord group in #need-help and tag the admin using @admin and type "i want to join the clan and be a CIH member/Game: your game".
+
+-wait for the test where we will give you the day and the exact hour of it.
+
+-btw if you want to know how to test in apex or fortnite or league of legends then all you have to do is reply to this email with the game name and we will send you info of the test process for every game.
+
 -and the last thing is we will send you a message on this email to tell you if you are accepted or not,and if you are good enough all i can say is welcome with us.
 }
