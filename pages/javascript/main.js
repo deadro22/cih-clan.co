@@ -1,20 +1,20 @@
 $(function(){
-  //lang control -s
-
   //french
   $("#mn_fr_ch").on("click",function(){
     var lng = $("#mn_fr_ch").text();
     $("#mn_lng").text(lng);
-    translator.lang("fr");
+      sessionStorage.setItem("Langtype", "fr");
+      translator.lang(sessionStorage.getItem("Langtype"));
   });
   //English
   $("#mn_eng_ch").on("click",function(){
     var lng = $("#mn_eng_ch").text();
     $("#mn_lng").text(lng);
-    translator.lang("en");
+    sessionStorage.setItem("Langtype", "en");
+    translator.lang(sessionStorage.getItem("Langtype"));
   });
 
-  var dict = {
+   var dict = {
   "Home": {
     fr: "Accueil",
     en: "Home"
@@ -122,6 +122,7 @@ $(function(){
 }
    var translator = $('body').translate({lang: "en", t: dict});
 
+   translator.lang(sessionStorage.getItem("Langtype"));
 
   var date = new Date();
   $("#cp_rt").text("© " +date.getFullYear()+ " CIH All Rights Reserved");
